@@ -1,0 +1,701 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SearchIndexes Version="1.0">
+    <Documents>
+        <Document ID="12">
+            <Title>Novel Format</Title>
+            <Text>NOVEL WITH PARTS
+
+About This Template
+By default, when compiled (File &gt; Compile), this project will generate a document in the standard manuscript format for novels. The necessary settings are also provided to make it easy to compile to a paperback-style PDF for self-publishing or an EPUB or Kindle e-book.
+
+How To Use This Template
+	•	Create a new folder for each part of your novel as direct subdocuments of the Manuscript folder. Two  folders have already been created at this level for you, with the placeholder title “Part”. You should rename these with the titles of the parts of your novel. For instance, Milan Kundera’s The Unbearable Lightness of Being’s first part is entitled “PART ONE: Lightness and Weight”. In that example, you would name the part, “Lightness and Weight” (the “Part One” will be added during Compile). You can choose not to include these titles during the Compile process.
+	•	Create a new folder for each chapter inside the relevant “Part” folder and title each folder with the name of the chapter. If you don’t intend to use chapter names, just use something descriptive that tells you what the chapter is about. (You do not need to title the folders “Chapter One” and so on, as chapter numbering will be taken care of automatically during the Compile process.) Some chapter folders have been created for you with the placeholder title “Chapter”.
+	•	Create a new text document for each scene inside the chapter folders. (Upon export, scenes will be separated with the “#” character for standard manuscript format, or with a blank line for other formats.)
+	•	Information about characters can be placed in the “Characters” folder, and information about locations can be placed in the “Places” folder. (These are just regular folders that have had custom icons assigned to them using the Documents &gt; Change Icon feature.)
+	•	Character and setting sketch sheets have been provided which can be used for filling out information about the people and places in your novel. These are located in the “Template Sheets” folder. You should not edit the documents in the “Template Sheets” folder directly unless you wish to change the templates (which you are free to do - you may wish to customise the sketch sheets or get rid of them entirely). Instead, to create a new character sheet, click on the Characters folder (or wherever you want to create your new character sheet) and from the Project menu, select New From Template &gt; Character Sketch. This creates a new character sketch document for you to edit and fill in with your character details. You can create setting sketch sheets in the same way. Alternatively, you can just click “Add”, or hit cmd-N, with the Characters or Places folders selected.
+
+Compiling
+	•	Title pages and front matter are all provided in the “Front Matter” folder (between the “Places” and “Research” folders). You will choose different front matter depending on the format to which you are compiling.
+	•	Scrivener remembers your compile settings, so you only need to follow the instructions below when you want to compile to a different format. After that, you can just go to File &gt; Compile… and click the “Compile” button straight away.
+	•	Note that if you cannot find any of the presets mentioned below in the “Format As” menu in the Compile panel, please select “Manage Compile Format Presets…” from the bottom of the “Format As” menu. This will bring up a panel that allows you to add more formats to the menu.
+	•	Tip: You can open this document in a QuickReference panel and have it open alongside the Compile panel if you need to refer to these instructions while compiling.
+
+		To compile to standard manuscript format:
+	◦	Edit the “Title Page” document inside the Front Matter/Manuscript Format folder to ensure that it contains the correct information (note that it will have been filled in by default with information from Address Book).
+	◦	Go to File &gt; Compile…
+	◦	Select “Standard Manuscript Format (with Parts)” from the “Format As” pop-up button if it is not already selected. (If “Novel (with Parts)” is selected, that’s fine too - that’s just the default format for this particular template, which is the same as standard manuscript format.)
+	◦	Ensure that the “Summary” tab is selected at the top of the Compile panel. (This isn’t strictly necessary—the below options can also be found in the “Contents” pane of the “All Options” tab.)
+	◦	Ensure that the “Add front matter” button is ticked and select the “Manuscript Format” folder from the pop-up button next to it (this is already selected by default).
+	◦	Click on “Compile”.
+
+		To compile to paperback PDF format:
+	◦	Edit the front matter pages contained inside the Front Matter/Paperback Novel folder.
+	◦	Go to File &gt; Compile…
+	◦	Select “Paperback Novel (with Parts)” from the “Format As” pop-up button if it is not already selected.
+	◦	Ensure that the “Summary” tab is selected at the top of the Compile panel. (This isn’t strictly necessary—the below options can also be found in the “Contents” pane of the “All Options” tab.)
+	◦	Ensure that the “Add front matter” button is ticked and select the “Paperback Novel” folder from the pop-up button next to it if it is not already selected.
+	◦	Click on “Compile”.
+
+		To compile to e-book format:
+	◦	Edit or remove the dedication page contained inside the Front Matter/E-Book folder. Feel free to add any other front matter documents as required.
+	◦	Import a cover image (the recommended size is 600x800 pixels, preferably in JPG or PNG format). You can store this anywhere, but it makes sense to place it in the “E-Book” front matter folder. A placeholder cover image is already provided - you will want to delete that once you have imported your own.
+	◦	Go to File &gt; Compile…
+	◦	Select “E-book (with Parts)” from the “Format As” pop-up button if it is not already selected.
+	◦	Ensure that the “Summary” tab is selected at the top of the Compile panel. (This isn’t strictly necessary—the below options can also be found in the “Contents”, “Cover” and “Layout” panes of the “All Options” tab.)
+	◦	If you have front matter documents other than the cover image, ensure that the “Add front matter” button is ticked and select the “E-Book” folder from the pop-up button next to it if it is not already selected. If you don’t have any front matter documents, you can un-tick “Add front matter”. (Un-ticking this does not affect the cover image.)
+	◦	If you have imported your own cover image, be sure to select it from the “Cover image” pop-up button.
+	◦	If you don’t want an HTML table of contents included, un-tick “Generate HTML table of contents”. This must be ticked when exporting to Kindle format but is less necessary when exporting to EPUB format, because most EPUB readers generate their own table of contents anyway.
+	◦	From the “Compile for” pop-up button, choose whether to export to EPUB or Kindle format.
+	◦	Click on “Compile”.
+
+Making Changes
+There are various minor changes you can make to the settings to tweak this template so that it better suits your needs, as follows:
+	•	Project and author name: The default book title and author name used in headers and elsewhere can be customised by going to Project &gt; Meta-Data Settings… and choosing the “Project Properties” tab.
+	•	Part subtitles: If you don’t want to include the titles of your “Part” folders in your compiled manuscript, go to the “Formatting” pane in the Compile sheet and deselect “Title” for the “Level 1” folder item. Then click on “Section Layout…” and remove the colon and space at the end of the title prefix (“Part &lt;$t:part&gt;”).
+	•	Chapter subtitles: If you don’t want to include the names of your chapter folders below the chapter numbering text in the compiled document, go to the “Formatting” pane in the Compile sheet and deselect “Title” for the “Level 2+” folder item and the “Level 1” and “Level 2” text items. (Conversely, if you do want to include chapter titles for formats that don’t include them by default, tick these items.)
+	•	Page header and footer: You can edit the page header in the “Page Settings” pane of the Compile sheet (under “All Options”).
+	•	Page size: The “Paperback Novel (with Parts)” format is set to export to a page size of 5.06” x 7.81”, which is one of the formats you can use with CreateSpace. You can customise this by clicking on the “Page Setup…” button in the “Page Settings” pane of Compile.
+	•	Font: You can use “Quick Font Override” in Compile to change the font used throughout the final document (this is available from both the “Summary” and “All Options” tabs). Note that fonts are not included in e-books, however—e-readers choose their own fonts (and you would need to pay a hefty fee for a licence to embed a particular font in an e-book).
+	•	Making your own special folders: The “Characters” and “Places” folders are really just regular folders that have been set up in a particular way, and you are free to create other folders that work in a similar manner.
+	1.	To create a folder with a custom icon, add a new folder, place it where you want it, ensure it is selected, and then go to Documents &gt; Change Icon to choose a different icon.
+	2.	To create your own template sheets, simply create a new document inside the “Template Sheets” folder and set it up however you want (whether by adding text, changing the title, setting default meta-data, or whatever). Now this document will be available as the basis of new documents from the New From Template menu. (You can add a custom icon to this if you so wish, too.)
+	3.	To set things up so that when the special folder created in (1) is selected and you hit “Add”, a new document based on the one you set up in (2) is created, select the folder and go to Documents &gt; Default New Subdocument Type and select the special template document you created.
+	•	Working with chapters instead of scenes: By default, this project is set up so that you write each scene as a separate text document. If you don’t like to break things up quite that much and would prefer to write an entire chapter in each text document, make the following changes:
+	1.	Rename the “Scene” documents to use your chapter titles and move them so that they are contained directly inside the “Part” folders (that is, at the same level as the current “Chapter” folders).
+	2.	Move the chapter folders to the Trash.
+	3.	Create a new text document for each chapter.
+	4.	In the “Separators” pane of the Compile sheet, change the “Text separator” setting to “Page break”.
+	5.	If your scene separators are centred (for instance if you are using “#” as the scene separator) and you want them to appear centred in the compiled document, too, choose the “Formatting” pane of Compile, click on “Options…” and tick “Preserve alignment” and “Centered text only”.
+
+Sample Documents
+The “Sample Output” folder inside the Research folder contains examples of documents that have been created by compiling from this template. “Standard Manuscript” shows the results when compiling to “Standard Manuscript Format (with Parts)”; “Paperback Novel” shows the results when compiling to “Paperback Novel (with Parts)” format; and “iBooks E-book” shows the results when compiling to “E-book (with Parts)” format and opening the resulting EPUB file in iBooks on the iPad.
+
+Final Note
+Scrivener project templates are flexible and are not intended to restrict you to a particular workflow. You can change, delete or move the files and folders contained in the template, and you can create your own templates by setting up a skeletal project with the files, folders and settings you would like to use for new projects and using File &gt; Save As Template.</Text>
+        </Document>
+        <Document ID="21">
+            <Title>Character Sketch</Title>
+            <Text>Character Name
+
+	Role in Story:	
+	Occupation:	
+ 	
+
+Physical Description:	
+
+	Personality:	
+
+	Habits/Mannerisms:	
+ 	
+
+	Background:	
+
+	Internal Conflicts:	
+
+	External Conflicts:	 
+ 	
+
+	Notes:	</Text>
+        </Document>
+        <Document ID="4">
+            <Title>Chapter</Title>
+        </Document>
+        <Document ID="22">
+            <Title>Setting Sketch</Title>
+            <Text>Name of Setting
+
+	Role in Story:	
+
+	Related Characters:	
+
+	Season:	
+
+	Unique Features:	
+
+	Description:	
+
+	Sights:	
+	Sounds:	
+	Smells:	
+
+	Notes:	</Text>
+        </Document>
+        <Document ID="6">
+            <Title>Cathy calls Karthik</Title>
+            <Text>“Mr. Menon?” Cathy asked gasping.
+“No, this is his son Karthik here. Is that umm.. Cathy?”
+“Yeah, I need to speak to your parents, are they there?”
+“No, they’ve gone out for </Text>
+            <Notes>Cathy calls Karthik and tells him</Notes>
+        </Document>
+        <Document ID="40">
+            <Title>Paperback Novel</Title>
+        </Document>
+        <Document ID="41">
+            <Title>Title Page</Title>
+            <Text>
+
+
+
+
+
+
+
+&lt;$PROJECTTITLE&gt;
+
+&lt;$author&gt;</Text>
+            <Notes>These tags get replaced with the information set in Project &gt; Meta-Data Settings… &gt; Project Properties. You can edit those settings or just replace this text altogether.</Notes>
+        </Document>
+        <Document ID="50">
+            <Title>Sample Output</Title>
+        </Document>
+        <Document ID="42">
+            <Title>Copyright</Title>
+            <Text>
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © &lt;$year&gt; &lt;$author&gt;
+All rights reserved.
+ISBN:
+ISBN-13:
+</Text>
+            <Notes>Feel free to delete this document if you don’t need it.</Notes>
+        </Document>
+        <Document ID="51">
+            <Title>overal plot</Title>
+            <Text>75,000 - 90000 words; @1500 words/chapter = 50-60 chapters
+https://docs.google.com/document/d/1UFHZESeevVUym9cUWBq58YeYdy4h5y137Da-1wT2vh0/edit#
+Main Characters
+Cathy - Energetic, Lovable, Extremely emotional, impulsive, "yellow”, generous
+Lingaraj - Lovable, Bit-of-a-crook,
+Supporting Characters
+Ben - Studying architecture - interested in architecture, stingy, self-centred
+Mr. Shashi Menon - Overworked, old-school thinker, easily angered, know-it-all
+Mrs. Anita Menon - Self-obsessed, very "status"-aware
+Prashanth - Disengaged, in-his-own-world, converted by Cathy Pinky - Prashanth’s sister - mini-Mrs. Anita
+Story
+Cathy and Ben come to India. Ben interested in Architecture. Cathy has had her heart broken. She is very low in confidence. She lost a brother when she was young - partially her fault.
+Rough Outline
+Chapter 1
+Cathy wakes up and hears the news - she is in shock esp when she realised that Lingaraj might be impacted. She calls Prashanth. Serious chapter - introduces Cathy &amp; Ben.
+Chapter 2
+Karthik and Mr. Menon go to the airport; mood is light - funny,
+Chapter 3
+Cathy &amp; Ben arrive in Bangalore instead of Chennai. Serious chapter - bad flight
+They go to Mahabalipuram - Cathy’s imaginations, Ben’s matter-of-factness.
+Chapter 4
+Meeting Lingaraj’s family - funny &amp; emotional - Cathy connects with Lingaraj’s son - reminds Cathy of her brother
+Chapter 5
+Cathy’s brother back-story along with her sense of guilt
+Chapter 6
+Tsunami hits; child missing Cathy is torn.
+Chapter 7
+Prashanth and background on who he is - computer wiz, very shy, withdrawn.
+Chapter 8
+
+</Text>
+        </Document>
+        <Document ID="60">
+            <Title>links &amp; snippets</Title>
+            <Text>http://en.wikipedia.org/wiki/2004_Indian_Ocean_earthquake_and_tsunami
+http://en.wikipedia.org/wiki/Effect_of_the_2004_Indian_Ocean_earthquake_on_India
+
+
+The 2004 Indian Ocean earthquake occurred at 00:58:53 UTC (06:30 IST) on 26 December with an epicentre off the west coast of Sumatra, Indonesia. 
+
+The northern regions of the Indonesian island of Sumatra were hit very quickly, while Sri Lanka and the east coast of India were hit roughly 90 minutes to two hours later.
+</Text>
+        </Document>
+        <Document ID="43">
+            <Title>Dedication</Title>
+            <Text>
+
+
+
+
+
+
+
+
+
+
+Insert dedication here.</Text>
+            <Notes>Feel free to delete this document if you don’t need it.</Notes>
+        </Document>
+        <Document ID="52">
+            <Title>Cathy</Title>
+            <Text>Character Name
+
+	Role in Story:	Protagonist 
+	Occupation:	Final year of University - some degree to do with social studies
+ 	
+
+Physical Description:	Blonde, dark brown eyes, attractive, slim
+	Personality:	emotional, high energy, people person, friendly, lovable
+	Habits/Mannerisms:	do-er
+ 	
+
+	Background:	
+
+	Internal Conflicts:	low self confidence
+
+	External Conflicts:	 
+ 	
+
+	Notes:	protagonist in the story</Text>
+        </Document>
+        <Document ID="17">
+            <Title>Characters</Title>
+        </Document>
+        <Document ID="18">
+            <Title>Places</Title>
+        </Document>
+        <Document ID="44">
+            <Title>E-Book</Title>
+        </Document>
+        <Document ID="36">
+            <Title>Standard Manuscript</Title>
+            <Text>Andrew Nonymous
+Your manuscript should
+have your address
+and contact details
+on the title page only.
+If you have an agent, your
+agent's address can be
+included beneath.
+700 words.
+NOVEL STANDARD MANUSCRIPT FORMAT
+         by A. Nonymous
+             Part One: Part Folder Title Goes Here
+                          Chapter One
+                Chapter Folder Title Goes Here
+     Standard manuscript format is often required for novels
+so that work can easily be read by editors. It allows editors
+to estimate word count and determine roughly how many pages
+will be required to produce a book using the page size, style
+and font used by their house. This PDF file was generated
+using Scrivener's Compile feature and was created using the
+"Novel" project template.
+     Manuscripts for full-length novels require a separate
+title page. The author's name, address, telephone number and
+e-mail address should be shown in the upper-left corner of the
+title page, single-spaced. The title of the story should
+appear in all-caps about half-way down the page. The author's
+name follows the title on the by-line as the author wants it
+Surname / TITLE / 1
+to appear when published. A real name or pseudonym may be used
+and may include initials, actual given name or professional
+designation.
+Surname / TITLE / 2
+                          Chapter Two
+                    Another Chapter Folder
+     All text should be double-spaced and left-justified with
+a ragged right margin. Paragraphs should be indented by about
+five spaces (half an inch) and not separated by an additional
+blank line. (It used to be traditional to separate each
+sentence with two spaces, but in these days of word processors
+this is now less common.) A 12-point font such as Courier,
+Times New Roman or Arial should be used throughout. In
+Scrivener, however, you can write using any font and
+formatting you choose - the "Formatting" pane of the Compile
+sheet can be used to change the formatting in the compiled
+document. In the "Novel" project template, the Compile
+settings will deal with changing the font and formatting to
+those required for standard manuscript format.
+     Top, bottom, left and right margins should all be
+Surname / TITLE / 3
+approximately one inch, not allowing for the page header. Each
+page except for the title page should include a header
+comprising the author's real surname, the title of the work
+(or a key word from the title) in capitals, and the page
+number. In Scrivener, all of this is handled in the "Page
+Settings" pane of the Compile sheet.
+                               #
+     Scene breaks are indicated with the hash character. Do
+not simply add an extra line space as this can be missed by
+the typesetter. The "Separators" pane of Scrivener's Compile
+sheet can handle this for you if you are writing each scene as
+a separate text document.
+     Indicate italics by underlining. In Scrivener, you can
+use italics and set them to be converted to underlines upon
+export or print by using "Convert italics to underlines in the
+"Transformations" pane of the Compile sheet.
+Surname / TITLE / 4
+￼￼
+                 Part Two: Another Part Folder
+                         Chapter Three
+                     Chapter Folder Title
+     Begin each new chapter on a new page like this with the
+chapter number about a third of the way down the page. In
+Scrivener, this can all be dealt with in the Compile settings.
+The "Separators" pane of the Compile sheet can be set to start
+a new page for each chapter folder, and the "Formatting" pane
+can be used to add page padding at the top of the new page and
+insert the chapter number (the latter using the "Level
+Settings"). All of this has already been done for you in the
+"Novel" project template.
+     Although it is often said that writers should not use the
+word-count features of their computers to determine the number
+of words in a manuscript, most publishers and editors will
+happily accept a word processor word count these days. In
+Surname / TITLE / 5
+Scrivener, you can insert a word count of your manuscript by
+using Edit &gt; Insert &gt; Draft Word Count (for a manuscript, you
+may wish to have the word count rounded to the nearest 100, in
+which case select Edit &gt; Insert &gt; Draft Word Count &gt; Rounded
+To Nearest 100--this feature is used on the title page of this
+manuscript, in fact). Note that the actual word count will not
+be inserted, but a tag that will be substituted for the word
+count upon export. In reality, the formatting of a manuscript
+is often only really crucial when submitting directly to a
+publisher--first time novelists will usually submit to an
+agent first, and agents are often less picky about format and
+will point you in the right direction before submitting your
+work to a publisher.
+                               #
+     Much of the information contained in this document is
+based on a description of novel manuscript format by Matt
+Carless for the BBC Writers' Room website: http://
+www.bbc.co.uk/writersroom
+&lt;&lt;&lt;&lt;&gt;&gt;&gt;&gt;
+Surname / TITLE / 6
+</Text>
+        </Document>
+        <Document ID="45">
+            <Title>Cover</Title>
+        </Document>
+        <Document ID="54">
+            <Title>Karthik tells his parents</Title>
+        </Document>
+        <Document ID="37">
+            <Title>Front Matter</Title>
+        </Document>
+        <Document ID="46">
+            <Title>Dedication</Title>
+            <Text>
+
+
+
+
+Your dedication here.</Text>
+            <Notes>Feel free to delete this document if you don’t need it.</Notes>
+        </Document>
+        <Document ID="55">
+            <Title>Karthik Menon</Title>
+            <Text>Karthik Menon
+	Role in Story:	
+	Occupation:	
+ 	
+
+Physical Description:	
+
+	Personality:	reserved, quiet, introvert, technical guru
+
+	Habits/Mannerisms:	
+ 	
+
+	Background:	
+
+	Internal Conflicts:	low self-condifence
+
+	External Conflicts:	 
+ 	
+
+	Notes:	</Text>
+        </Document>
+        <Document ID="38">
+            <Title>Manuscript Format</Title>
+        </Document>
+        <Document ID="56">
+            <Title>Rediff 26 Dec</Title>
+            <Text>More than 1,800 people were feared killed and hundreds more went missing when tsunamis triggered by a massive earthquake -- the biggest in four decades at 8.9 on the Richter scale, according to the US Geological Survey's National Earthquake Information Centre -- near the Indonesian islands of Sumatra slammed into the southern peninsular coast of India on Sunday morning.
+Note: The toll is likely to change as the situation develops.
+At least 1,500 died in Tamil Nadu alone as the waves swept through the coastal areas, bringing in their wake death and destruction.
+In Nagapattinam district, around 700 people died, followed by Kanyakumari (250) and Cuddalore (200).
+Around 125 perished in the state capital of Chennai. Morning walkers on Marina Beach and residents in the Foreshore Estate slums almost abutting the sea got a rude shock when waves leaping up to 30-40 ft crossed the beach and slammed into the houses nearby, catching people unawares. Most of the victims were women and children who could not get out of the way.
+The second unit of the Madras Atomic Power Station at Kalpakkam wasshut down after water entered the plant.
+About 500 tourists were stranded at the Vivekananda Rock Memorial in Kanyakumari following the tremors. Helicopters from nearby Thiruvananthapuram were pressed into service to rescue them.
+In Pondicherry, at least 102 deaths were reported.
+At least 86 people were killed and hundreds injured in Kerala's southern districts. Kollam district recorded the most number of deaths (67) followed by Alappuzha (16).
+Hundreds of people were injured as seawaters entered houses and fishing hamlets.
+Andhra Pradesh reported 52 deaths -- Home Minister Shivraj Patil put the figure at somewhere close to 200 -- mostly in Guntur, Prakasam and Krishna districts. The state government announced a relief of Rs 100,000 each to the next of kin of dead.
+</Text>
+        </Document>
+        <Document ID="57">
+            <Title>TOI 26 Dec</Title>
+            <Text>NEW DELHI: Imagine going for a morning walk along the sea as you do every morning. The sea is a Pacific influence and you perhaps dip your toe in the water. But before you realise what's happening, you are caught in one of the worst natural calamities in living memory. For hundreds in Chennai's Marina Beach on Sunday morning, it was nightmarishly like this. 
+
+For thousands of fisherfolk, who had gone like every morning into the sea, it was again the same story — suddenly being caught in a phenomenon, tsunami, which struck India for the first time in recorded history. 
+
+The country was still coming to grips with the nature and scale of the disaster. The toll, according to the government, was 2,000 and rising, but other estimates put the toll at over 3,000. And there's no news yet of 45,000 people in Car Nicobar and Greater Nicobar where a quake of 7.5 magnitude hit early in the morning. </Text>
+        </Document>
+        <Document ID="49">
+            <Title>Paperback Novel</Title>
+            <Text>THE GREATEST STORY EVER TOLD
+Jorges Lucaz
+Copyright © 2012 Jorges Lucaz All rights reserved.
+ISBN: ISBN-13:
+Dedicated to Dusty Bin.
+
+PART ONE THE PROXY
+
+1
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rhoncus adipiscing velit, sit amet cursus libero vehicula sed. Nulla sed urna tellus. Proin non ligula at ligula mollis tempor nec non ipsum. Maecenas non ultricies elit. Ut ac eros ac eros scelerisque commodo.
+Suspendisse accumsan risus nec leo sagittis dignissim. Aenean mollis iaculis mattis. Integer quam eros, ullamcorper at auctor ut, semper ac quam.
+Donec et felis vitae justo laoreet laoreet. Nam eu purus vel nisl venenatis sodales. Quisque tempor blandit dolor, non placerat dui tristique commodo. Curabitur scelerisque hendrerit lectus, laoreet semper dui commodo porta.
+Morbi ullamcorper, ipsum tristique sollicitudin tristique, leo arcu accumsan eros, consequat euismod ipsum sem quis libero.
+Morbi ut tortor ipsum. Maecenas ut rhoncus metus. Etiam pellentesque hendrerit dignissim. Sed aliquam,
+3
+Jorges Lucaz
+sem quis pulvinar pharetra, urna nunc pharetra orci, eu varius velit lacus eu nisl. Ut et quam non mauris convallis ullamcorper sed non libero. In hac habitasse platea dictumst. Proin quis pellentesque magna. Mauris in erat est.
+Nullam ac risus mi, vitae lacinia nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum dignissim elementum neque, vitae consectetur lectus pharetra nec. Fusce odio orci, fringilla a vulputate feugiat, placerat eget massa. Integer non magna eget dolor pulvinar vestibulum sit amet at mi.
+Cras blandit leo erat, id accumsan velit. Integer hendrerit, diam ut tincidunt sodales, diam lorem viverra nisl, vel porttitor ante metus et sem. Suspendisse potenti. Suspendisse eget lacus enim, sed placerat enim. Ut sit amet arcu id lacus gravida luctus ullamcorper pellentesque justo.
+Cras laoreet, ligula non sagittis ornare, dolor sapien pharetra leo, non hendrerit nisi libero at enim. Nulla facilisi. Aenean volutpat hendrerit orci, at commodo massa vestibulum congue.
+Aenean interdum, erat quis interdum porttitor, odio tortor ullamcorper nisl, eget tincidunt velit massa ut turpis. Praesent lacinia condimentum erat, a tempor elit viverra eget.
+Curabitur id erat quis massa feugiat semper. Suspendisse semper eros vitae mauris dignissim imperdiet mattis mauris accumsan. Suspendisse potenti. Vivamus vitae risus neque, id tempus mi. Integer quis
+4
+The Greatest Story Ever Told
+dolor et felis blandit auctor sed eget lectus.
+Donec sagittis ultricies diam, vitae porta nisi vehicula
+facilisis. Nullam et nunc a lacus tempus viverra. Ut pharetra tortor quis sem pretium pellentesque fermentum diam viverra. Vestibulum luctus sapien vel nibh vulputate eu tempor orci vehicula. Proin ultricies lobortis orci, id facilisis sapien ornare non.
+Nulla facilisi. Praesent bibendum, ipsum et mattis dictum, neque lacus bibendum enim, sed porta massa metus in enim. Nullam orci nisi, imperdiet at vehicula eu, lacinia vel libero. Donec in nisi lectus, sollicitudin porta est. In vitae risus nisi. Aenean eget hendrerit metus.
+Sed venenatis est at justo sagittis ullamcorper. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+Aenean eget ullamcorper nisi. Aliquam gravida ultrices lobortis. Suspendisse eget dignissim lorem. Suspendisse potenti. Pellentesque blandit orci quis tellus aliquet ut pharetra ante pellentesque. Sed sit amet dui orci. Sed ac euismod nulla. Proin ut eros libero.
+Mauris vitae tellus elit, non gravida augue.
+Fusce in dui mi. Aliquam augue sapien, vulputate at porttitor ut, mollis in ipsum. Sed porta tortor non mauris iaculis vel molestie nisl interdum. Aenean ut felis urna. Cras ac est quis neque pharetra fermentum.
+Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent sem dui, luctus a feugiat vitae, porta sed turpis. Duis vitae nulla felis. In adipiscing libero massa. Sed neque mauris, gravida non bibendum congue, congue at
+5
+Jorges Lucaz
+massa.
+Quisque elit ligula, tempor laoreet sagittis quis,
+accumsan quis purus. Aliquam eu purus condimentum libero tristique fringilla a ut massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+Nulla facilisi. Praesent bibendum, ipsum et mattis dictum, neque lacus bibendum enim, sed porta massa metus in enim. Nullam orci nisi, imperdiet at vehicula eu, lacinia vel libero. Donec in nisi lectus, sollicitudin porta est. In vitae risus nisi. Aenean eget hendrerit metus.
+Sed venenatis est at justo sagittis ullamcorper. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+6
+2
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rhoncus adipiscing velit, sit amet cursus libero vehicula sed. Nulla sed urna tellus. Proin non ligula at ligula mollis tempor nec non ipsum. Maecenas non ultricies elit. Ut ac eros ac eros scelerisque commodo.
+Suspendisse accumsan risus nec leo sagittis dignissim. Aenean mollis iaculis mattis. Integer quam eros, ullamcorper at auctor ut, semper ac quam.
+Donec et felis vitae justo laoreet laoreet. Nam eu purus vel nisl venenatis sodales. Quisque tempor blandit dolor, non placerat dui tristique commodo. Curabitur scelerisque hendrerit lectus, laoreet semper dui commodo porta.
+Morbi ullamcorper, ipsum tristique sollicitudin tristique, leo arcu accumsan eros, consequat euismod ipsum sem quis libero.
+Morbi ut tortor ipsum. Maecenas ut rhoncus metus. Etiam pellentesque hendrerit dignissim. Sed aliquam,
+7
+Jorges Lucaz
+sem quis pulvinar pharetra, urna nunc pharetra orci, eu varius velit lacus eu nisl. Ut et quam non mauris convallis ullamcorper sed non libero. In hac habitasse platea dictumst. Proin quis pellentesque magna. Mauris in erat est.
+Nullam ac risus mi, vitae lacinia nibh.
+Vestibulum ante ipsum primis in faucibus orci luctus
+et ultrices posuere cubilia Curae; Vestibulum dignissim elementum neque, vitae consectetur lectus pharetra nec. Fusce odio orci, fringilla a vulputate feugiat, placerat eget massa. Integer non magna eget dolor pulvinar vestibulum sit amet at mi.
+Cras blandit leo erat, id accumsan velit. Integer hendrerit, diam ut tincidunt sodales, diam lorem viverra nisl, vel porttitor ante metus et sem. Suspendisse potenti. Suspendisse eget lacus enim, sed placerat enim. Ut sit amet arcu id lacus gravida luctus ullamcorper pellentesque justo.
+Cras laoreet, ligula non sagittis ornare, dolor sapien pharetra leo, non hendrerit nisi libero at enim. Nulla facilisi. Aenean volutpat hendrerit orci, at commodo massa vestibulum congue. Aenean interdum, erat quis interdum porttitor, odio tortor ullamcorper nisl, eget tincidunt velit massa ut turpis. Praesent lacinia condimentum erat, a tempor elit viverra eget.
+Curabitur id erat quis massa feugiat semper. Suspendisse semper eros vitae mauris dignissim imperdiet mattis mauris accumsan. Suspendisse potenti. Vivamus vitae risus neque, id tempus mi. Integer quis dolor et felis blandit auctor sed eget lectus. Donec
+8
+The Greatest Story Ever Told
+sagittis ultricies diam, vitae porta nisi vehicula facilisis. Nullam et nunc a lacus tempus viverra. Ut pharetra tortor quis sem pretium pellentesque fermentum diam viverra. Vestibulum luctus sapien vel nibh vulputate eu tempor orci vehicula. Proin ultricies lobortis orci, id
+facilisis sapien ornare non.
+Aenean eget ullamcorper nisi. Aliquam gravida ultrices lobortis. Suspendisse eget dignissim lorem. Suspendisse potenti. Pellentesque blandit orci quis tellus aliquet ut pharetra ante pellentesque. Sed sit amet dui orci. Sed ac euismod nulla. Proin ut eros libero.
+Mauris vitae tellus elit, non gravida augue. Fusce in dui mi. Aliquam augue sapien, vulputate at porttitor ut, mollis in ipsum. Sed porta tortor non mauris iaculis vel molestie nisl interdum.
+Aenean ut felis urna. Cras ac est quis neque pharetra fermentum.
+Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent sem dui, luctus a feugiat vitae, porta sed turpis. Duis vitae nulla felis. In adipiscing libero massa. Sed neque mauris, gravida non bibendum congue, congue at massa.
+Quisque elit ligula, tempor laoreet sagittis quis, accumsan quis purus. Aliquam eu purus condimentum libero tristique fringilla a ut massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+9
+
+PART TWO PROJECT BOOMERANG
+
+3
+Curabitur id erat quis massa feugiat semper. Suspendisse semper eros vitae mauris dignissim imperdiet mattis mauris accumsan. Suspendisse potenti. Vivamus vitae risus neque, id tempus mi. Integer quis dolor et felis blandit auctor sed eget lectus.
+Donec sagittis ultricies diam, vitae porta nisi vehicula facilisis. Nullam et nunc a lacus tempus viverra. Ut pharetra tortor quis sem pretium pellentesque fermentum diam viverra. Vestibulum luctus sapien vel nibh vulputate eu tempor orci vehicula. Proin ultricies lobortis orci, id facilisis sapien ornare non.
+Nulla facilisi. Praesent bibendum, ipsum et mattis dictum, neque lacus bibendum enim, sed porta massa metus in enim. Nullam orci nisi, imperdiet at vehicula eu, lacinia vel libero. Donec in nisi lectus, sollicitudin porta est. In vitae risus nisi. Aenean eget hendrerit metus.
+Sed venenatis est at justo sagittis ullamcorper. Pellentesque habitant morbi tristique senectus et netus et
+13
+Jorges Lucaz
+malesuada fames ac turpis egestas.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rhoncus adipiscing velit, sit amet cursus libero vehicula sed. Nulla sed urna tellus. Proin non ligula at ligula mollis tempor nec non ipsum. Maecenas non ultricies elit. Ut ac eros ac eros scelerisque commodo.
+Suspendisse accumsan risus nec leo sagittis dignissim. Aenean mollis iaculis mattis. Integer quam eros, ullamcorper at auctor ut, semper ac quam.
+Nullam ac risus mi, vitae lacinia nibh.
+Vestibulum ante ipsum primis in faucibus orci luctus
+et ultrices posuere cubilia Curae; Vestibulum dignissim elementum neque, vitae consectetur lectus pharetra nec. Fusce odio orci, fringilla a vulputate feugiat, placerat eget massa. Integer non magna eget dolor pulvinar vestibulum sit amet at mi.
+Cras blandit leo erat, id accumsan velit. Integer hendrerit, diam ut tincidunt sodales, diam lorem viverra nisl, vel porttitor ante metus et sem. Suspendisse potenti. Suspendisse eget lacus enim, sed placerat enim. Ut sit amet arcu id lacus gravida luctus ullamcorper pellentesque justo.
+Cras laoreet, ligula non sagittis ornare, dolor sapien pharetra leo, non hendrerit nisi libero at enim. Nulla facilisi. Aenean volutpat hendrerit orci, at commodo massa vestibulum congue. Aenean interdum, erat quis interdum porttitor, odio tortor ullamcorper nisl, eget tincidunt velit massa ut turpis. Praesent lacinia condimentum erat, a tempor elit viverra eget.
+***
+14
+The Greatest Story Ever Told
+Donec et felis vitae justo laoreet laoreet. Nam eu purus vel nisl venenatis sodales. Quisque tempor blandit dolor, non placerat dui tristique commodo. Curabitur scelerisque hendrerit lectus, laoreet semper dui commodo porta.
+Morbi ullamcorper, ipsum tristique sollicitudin tristique, leo arcu accumsan eros, consequat euismod ipsum sem quis libero.
+Morbi ut tortor ipsum. Maecenas ut rhoncus metus. Etiam pellentesque hendrerit dignissim. Sed aliquam, sem quis pulvinar pharetra, urna nunc pharetra orci, eu varius velit lacus eu nisl. Ut et quam non mauris convallis ullamcorper sed non libero. In hac habitasse platea dictumst. Proin quis pellentesque magna. Mauris in erat est.
+Nullam ac risus mi, vitae lacinia nibh.
+Vestibulum ante ipsum primis in faucibus orci luctus
+et ultrices posuere cubilia Curae; Vestibulum dignissim elementum neque, vitae consectetur lectus pharetra nec. Fusce odio orci, fringilla a vulputate feugiat, placerat eget massa. Integer non magna eget dolor pulvinar vestibulum sit amet at mi.
+Cras blandit leo erat, id accumsan velit. Integer hendrerit, diam ut tincidunt sodales, diam lorem viverra nisl, vel porttitor ante metus et sem. Suspendisse potenti. Suspendisse eget lacus enim, sed placerat enim. Ut sit amet arcu id lacus gravida luctus ullamcorper pellentesque justo.
+Cras laoreet, ligula non sagittis ornare, dolor sapien pharetra leo, non hendrerit nisi libero at enim. Nulla facilisi. Aenean volutpat hendrerit orci, at commodo
+15
+Jorges Lucaz
+massa vestibulum congue. Aenean interdum, erat quis interdum porttitor, odio tortor ullamcorper nisl, eget tincidunt velit massa ut turpis. Praesent lacinia condimentum erat, a tempor elit viverra eget.
+Aenean eget ullamcorper nisi. Aliquam gravida ultrices lobortis. Suspendisse eget dignissim lorem. Suspendisse potenti. Pellentesque blandit orci quis tellus aliquet ut pharetra ante pellentesque. Sed sit amet dui orci. Sed ac euismod nulla. Proin ut eros libero.
+Mauris vitae tellus elit, non gravida augue. Fusce in dui mi. Aliquam augue sapien, vulputate at porttitor ut, mollis in ipsum. Sed porta tortor non mauris iaculis vel molestie nisl interdum. Aenean ut felis urna. Cras ac est quis neque pharetra fermentum.
+Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent sem dui, luctus a feugiat vitae, porta sed turpis. Duis vitae nulla felis. In adipiscing libero massa. Sed neque mauris, gravida non bibendum congue, congue at massa. Quisque elit ligula, tempor laoreet sagittis quis, accumsan quis purus. Aliquam eu purus condimentum libero tristique fringilla a ut massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+16
+4
+Curabitur id erat quis massa feugiat semper. Suspendisse semper eros vitae mauris dignissim imperdiet mattis mauris accumsan. Suspendisse potenti. Vivamus vitae risus neque, id tempus mi. Integer quis dolor et felis blandit auctor sed eget lectus. Donec sagittis ultricies diam, vitae porta nisi vehicula facilisis.
+Nullam et nunc a lacus tempus viverra. Ut pharetra tortor quis sem pretium pellentesque fermentum diam viverra. Vestibulum luctus sapien vel nibh vulputate eu tempor orci vehicula. Proin ultricies lobortis orci, id facilisis sapien ornare non.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rhoncus adipiscing velit, sit amet cursus libero vehicula sed. Nulla sed urna tellus. Proin non ligula at ligula mollis tempor nec non ipsum. Maecenas non ultricies elit. Ut ac eros ac eros scelerisque commodo.
+Suspendisse accumsan risus nec leo sagittis dignissim. Aenean mollis iaculis mattis. Integer quam eros,
+17
+Jorges Lucaz
+ullamcorper at auctor ut, semper ac quam.
+Donec et felis vitae justo laoreet laoreet. Nam eu purus vel nisl venenatis sodales. Quisque tempor blandit dolor, non placerat dui tristique commodo. Curabitur scelerisque hendrerit lectus, laoreet semper dui commodo porta.
+Morbi ullamcorper, ipsum tristique sollicitudin tristique, leo arcu accumsan eros, consequat euismod ipsum sem quis libero.
+Morbi ut tortor ipsum. Maecenas ut rhoncus metus. Etiam pellentesque hendrerit dignissim. Sed aliquam, sem quis pulvinar pharetra, urna nunc pharetra orci, eu varius velit lacus eu nisl. Ut et quam non mauris convallis ullamcorper sed non libero. In hac habitasse platea dictumst. Proin quis pellentesque magna. Mauris in erat est.
+Nulla facilisi. Praesent bibendum, ipsum et mattis dictum, neque lacus bibendum enim, sed porta massa metus in enim. Nullam orci nisi, imperdiet at vehicula eu, lacinia vel libero. Donec in nisi lectus, sollicitudin porta est. In vitae risus nisi. Aenean eget hendrerit metus.
+Sed venenatis est at justo sagittis ullamcorper. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+Aenean eget ullamcorper nisi. Aliquam gravida ultrices lobortis. Suspendisse eget dignissim lorem. Suspendisse potenti. Pellentesque blandit orci quis tellus aliquet ut pharetra ante pellentesque. Sed sit amet dui orci. Sed ac
+18
+The Greatest Story Ever Told
+euismod nulla. Proin ut eros libero.
+Mauris vitae tellus elit, non gravida augue. Fusce in
+dui mi. Aliquam augue sapien, vulputate at porttitor ut, mollis in ipsum. Sed porta tortor non mauris iaculis vel molestie nisl interdum.
+Aenean ut felis urna. Cras ac est quis neque pharetra fermentum.
+Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent sem dui, luctus a feugiat vitae, porta sed turpis. Duis vitae nulla felis. In adipiscing libero massa. Sed neque mauris, gravida non bibendum congue, congue at massa.
+Quisque elit ligula, tempor laoreet sagittis quis, accumsan quis purus. Aliquam eu purus condimentum libero tristique fringilla a ut massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+19
+
+PART THREE THE CREATORS
+
+5
+Nullam ac risus mi, vitae lacinia nibh.
+Vestibulum ante ipsum primis in faucibus orci luctus
+et ultrices posuere cubilia Curae; Vestibulum dignissim elementum neque, vitae consectetur lectus pharetra nec. Fusce odio orci, fringilla a vulputate feugiat, placerat eget massa. Integer non magna eget dolor pulvinar vestibulum sit amet at mi.
+Cras blandit leo erat, id accumsan velit. Integer hendrerit, diam ut tincidunt sodales, diam lorem viverra nisl, vel porttitor ante metus et sem. Suspendisse potenti. Suspendisse eget lacus enim, sed placerat enim. Ut sit amet arcu id lacus gravida luctus ullamcorper pellentesque justo.
+Cras laoreet, ligula non sagittis ornare, dolor sapien pharetra leo, non hendrerit nisi libero at enim. Nulla facilisi. Aenean volutpat hendrerit orci, at commodo massa vestibulum congue. Aenean interdum, erat quis interdum porttitor, odio tortor ullamcorper nisl, eget tincidunt velit massa ut turpis. Praesent lacinia
+23
+Jorges Lucaz
+condimentum erat, a tempor elit viverra eget.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rhoncus adipiscing velit, sit amet cursus libero vehicula sed. Nulla sed urna tellus. Proin non ligula at ligula mollis tempor nec non ipsum. Maecenas non ultricies elit. Ut ac eros ac eros scelerisque commodo.
+Suspendisse accumsan risus nec leo sagittis dignissim. Aenean mollis iaculis mattis. Integer quam eros, ullamcorper at auctor ut, semper ac quam.
+Donec et felis vitae justo laoreet laoreet. Nam eu purus vel nisl venenatis sodales. Quisque tempor blandit dolor, non placerat dui tristique commodo. Curabitur scelerisque hendrerit lectus, laoreet semper dui commodo porta.
+Morbi ullamcorper, ipsum tristique sollicitudin tristique, leo arcu accumsan eros, consequat euismod ipsum sem quis libero.
+Morbi ut tortor ipsum. Maecenas ut rhoncus metus. Etiam pellentesque hendrerit dignissim. Sed aliquam, sem quis pulvinar pharetra, urna nunc pharetra orci, eu varius velit lacus eu nisl. Ut et quam non mauris convallis ullamcorper sed non libero. In hac habitasse platea dictumst. Proin quis pellentesque magna. Mauris in erat est.
+24
+6
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rhoncus adipiscing velit, sit amet cursus libero vehicula sed. Nulla sed urna tellus. Proin non ligula at ligula mollis tempor nec non ipsum. Maecenas non ultricies elit. Ut ac eros ac eros scelerisque commodo.
+Suspendisse accumsan risus nec leo sagittis dignissim. Aenean mollis iaculis mattis. Integer quam eros, ullamcorper at auctor ut, semper ac quam.
+Nullam ac risus mi, vitae lacinia nibh.
+Vestibulum ante ipsum primis in faucibus orci luctus
+et ultrices posuere cubilia Curae; Vestibulum dignissim elementum neque, vitae consectetur lectus pharetra nec. Fusce odio orci, fringilla a vulputate feugiat, placerat eget massa. Integer non magna eget dolor pulvinar vestibulum sit amet at mi.
+Cras blandit leo erat, id accumsan velit. Integer hendrerit, diam ut tincidunt sodales, diam lorem viverra nisl, vel porttitor ante metus et sem. Suspendisse
+25
+Jorges Lucaz
+potenti. Suspendisse eget lacus enim, sed placerat enim. Ut sit amet arcu id lacus gravida luctus ullamcorper pellentesque justo.
+Cras laoreet, ligula non sagittis ornare, dolor sapien pharetra leo, non hendrerit nisi libero at enim. Nulla facilisi. Aenean volutpat hendrerit orci, at commodo massa vestibulum congue. Aenean interdum, erat quis interdum porttitor, odio tortor ullamcorper nisl, eget tincidunt velit massa ut turpis. Praesent lacinia condimentum erat, a tempor elit viverra eget.
+Curabitur id erat quis massa feugiat semper. Suspendisse semper eros vitae mauris dignissim imperdiet mattis mauris accumsan. Suspendisse potenti. Vivamus vitae risus neque, id tempus mi. Integer quis dolor et felis blandit auctor sed eget lectus. Donec sagittis ultricies diam, vitae porta nisi vehicula facilisis.
+Nullam et nunc a lacus tempus viverra. Ut pharetra tortor quis sem pretium pellentesque fermentum diam viverra. Vestibulum luctus sapien vel nibh vulputate eu tempor orci vehicula. Proin ultricies lobortis orci, id facilisis sapien ornare non.
+Donec et felis vitae justo laoreet laoreet. Nam eu purus vel nisl venenatis sodales. Quisque tempor blandit dolor, non placerat dui tristique commodo. Curabitur scelerisque hendrerit lectus, laoreet semper dui commodo porta.
+Morbi ullamcorper, ipsum tristique sollicitudin tristique, leo arcu accumsan eros, consequat euismod ipsum sem quis libero.
+Morbi ut tortor ipsum. Maecenas ut rhoncus metus.
+26
+The Greatest Story Ever Told
+Etiam pellentesque hendrerit dignissim. Sed aliquam, sem quis pulvinar pharetra, urna nunc pharetra orci, eu varius velit lacus eu nisl. Ut et quam non mauris convallis ullamcorper sed non libero. In hac habitasse platea dictumst. Proin quis pellentesque magna. Mauris in erat est.
+27
+7
+Aenean eget ullamcorper nisi. Aliquam gravida ultrices lobortis. Suspendisse eget dignissim lorem. Suspendisse potenti. Pellentesque blandit orci quis tellus aliquet ut pharetra ante pellentesque. Sed sit amet dui orci. Sed ac euismod nulla. Proin ut eros libero.
+Mauris vitae tellus elit, non gravida augue. Fusce in dui mi. Aliquam augue sapien, vulputate at porttitor ut, mollis in ipsum. Sed porta tortor non mauris iaculis vel molestie nisl interdum. Aenean ut felis urna. Cras ac est quis neque pharetra fermentum.
+Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent sem dui, luctus a feugiat vitae, porta sed turpis. Duis vitae nulla felis. In adipiscing libero massa. Sed neque mauris, gravida non bibendum congue, congue at massa. Quisque elit ligula, tempor laoreet sagittis quis, accumsan quis purus. Aliquam eu purus condimentum libero tristique fringilla a ut massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+28
+The Greatest Story Ever Told
+ridiculus mus.
+Curabitur id erat quis massa feugiat semper. Suspendisse semper eros vitae mauris dignissim imperdiet mattis mauris accumsan. Suspendisse potenti. Vivamus vitae risus neque, id tempus mi. Integer quis dolor et felis blandit auctor sed eget lectus.
+Donec sagittis ultricies diam, vitae porta nisi vehicula facilisis. Nullam et nunc a lacus tempus viverra. Ut pharetra tortor quis sem pretium pellentesque fermentum diam viverra. Vestibulum luctus sapien vel nibh vulputate eu tempor orci vehicula. Proin ultricies lobortis orci, id facilisis sapien ornare non.
+Nulla facilisi. Praesent bibendum, ipsum et mattis dictum, neque lacus bibendum enim, sed porta massa metus in enim. Nullam orci nisi, imperdiet at vehicula eu, lacinia vel libero. Donec in nisi lectus, sollicitudin porta est. In vitae risus nisi. Aenean eget hendrerit metus.
+Sed venenatis est at justo sagittis ullamcorper. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+Nulla facilisi. Praesent bibendum, ipsum et mattis dictum, neque lacus bibendum enim, sed porta massa metus in enim. Nullam orci nisi, imperdiet at vehicula eu, lacinia vel libero. Donec in nisi lectus, sollicitudin porta est. In vitae risus nisi. Aenean eget hendrerit metus.
+Sed venenatis est at justo sagittis ullamcorper. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+29
+Jorges Lucaz
+***
+Aenean eget ullamcorper nisi. Aliquam gravida ultrices lobortis. Suspendisse eget dignissim lorem. Suspendisse potenti. Pellentesque blandit orci quis tellus aliquet ut pharetra ante pellentesque. Sed sit amet dui orci. Sed ac
+euismod nulla. Proin ut eros libero.
+Mauris vitae tellus elit, non gravida augue. Fusce in
+dui mi. Aliquam augue sapien, vulputate at porttitor ut, mollis in ipsum. Sed porta tortor non mauris iaculis vel molestie nisl interdum.
+Aenean ut felis urna. Cras ac est quis neque pharetra fermentum.
+Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent sem dui, luctus a feugiat vitae, porta sed turpis. Duis vitae nulla felis. In adipiscing libero massa. Sed neque mauris, gravida non bibendum congue, congue at massa.
+Quisque elit ligula, tempor laoreet sagittis quis, accumsan quis purus. Aliquam eu purus condimentum libero tristique fringilla a ut massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+30
+</Text>
+        </Document>
+        <Document ID="58">
+            <Title>Hindu 27 Dec</Title>
+            <Text>Tsunami leaves 131 dead in Chennai, suburbs
+By Our Chennai Bureau
+
+
+CHENNAI, DEC. 26. The tsunami that hit the coast in Chennai left an unprecedented 131 dead on Sunday. This included four from the northern suburb of Ennore. Most of the dead including children were fisherfolk.
+At least four of the rest were of those who came for early morning walk along the beachfront.
+In the fishing hamlets, when the water swell came in, several of the fisherfolk died in their sleep. Some of the children playing in the beachfront were also swept away.
+In all, the three major government hospitals here received the bodies in what seemed an unending row, of the young and the old; men, women and children. They all perished in the massive tide that swept away chunks of land, houses and huts, along with belongings, as also vehicles parked on the beach.
+Nearly 65 bodies came to the Government Royapettah Hospital, while at the Government General Hospital, 40 bodies arrived. The other bodies went to the Stanley hospital.
+The tsunami caused immense damage to property from the north Chennai's Ennore-Tiruvottiyur-Royapuram coast up to Kalpakkam, 60 km south of the city.
+The day itself began in an unusual fashion.
+Around 6-30 a.m., hundreds of thousands of people woke up feeling the tremors and an aftershock. Thousands panicked and left home, especially those living in multi-storey apartments or Slum Clearance Board tenements.
+People rushed out of tenements and apartments in Vyasarpadi, Mattankuppam, Ayodhya Kuppam, or the posh Adyar, T. Nagar and Besant Nagar areas.
+By 7-30 a.m. the first wave of the tsunami came in. A wall of water rose from the Bay of Bengal, smashed its way into the city, flooding coastal areas.
+The worst-affected were hamlets in Santhome and Mylapore.
+Edwin (24) one of the kuppam boys who survived because he could swim said: "I was exercising on the beach with a few others. Suddenly we saw the water come very fast. The younger children began running toward the Kannagi statue. As they were children they ran fast. My karate master was struggling. I tried to help him and his son. Just when I was halfway to the statue a huge wave hit my chest. Then another went over me. I held on to the two men but I saw the three children who were almost near the statue being washed away."
+K. Pugazhendi, a sound engineer who lives behind the housing board flats in Srinivasapuram in Pattinampakkam in a hut, almost rescued his 11-month-old daughter, K. Nikitha. "I had just taken her into my arms. I was afraid for my wife. Before I could do anything, a wave came into my house and took her away."
+J. Anuradha (22), bound for the United States next month for higher studies, had given in to the demands of her niece, M. Varshita (5) to take her for a walk from her aunt's house in Triplicane. While the three who went along escaped, these two girls were washed away. It was not until almost 1 p.m. that Varshita's mother was informed. Her father came to know of it about 12.30 p.m. The family members who came there said, "We are trying to find a way to tell the child's parents."
+Harrowing tales of lass and family tragedy repeated in the other hospitals.
+The Finance Minister, C. Ponnaiyan, and the PWD Minister, O. Paneerselvam, visited the affected areas, along with fire service personnel.
+
+
+
+
+</Text>
+        </Document>
+        <Document ID="59">
+            <Title>Newspaper</Title>
+        </Document>
+        <Document ID="11">
+            <Title>Title Page</Title>
+            <Synopsis>Title page to the manuscript.</Synopsis>
+            <Text>Your Name
+Your Address
+
+
+
+Your phone number
+Your e-mail address
+
+(Your agent’s name)
+(Your agent’s address)
+&lt;$wc100&gt; words.
+
+
+
+
+
+
+
+
+
+
+&lt;$PROJECTTITLE&gt;
+
+by &lt;$fullname&gt;</Text>
+            <Notes>This is the title page of the manuscript. Note that “Compile As-Is” is ticked - this ensures that the title page’s formatting doesn’t get changed during the Compile process, even though the formatting of other text documents will be overridden to use a standard 12-point manuscript font.
+
+The &lt;$PROJECTTITLE&gt; and &lt;$fullname&gt; tags get replaced with the information set in Project &gt; Meta-Data Settings… &gt; Project Properties. You can edit those settings or just replace this text altogether. (Other information is taken from Address Book when the project is created.)</Notes>
+        </Document>
+        <Document ID="20">
+            <Title>Template Sheets</Title>
+        </Document>
+    </Documents>
+</SearchIndexes>
