@@ -1,16 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<ScrivenerProject Version="1.5" Creator="SCRMAC-2.7.1-26120" Device="KeshiMac-2" Modified="2015-11-24 12:01:00 +1100" ModID="CE9EEBBE-4B33-4F09-9437-C1108BB135ED">
+<ScrivenerProject Version="1.5" Creator="SCRMAC-2.7.1-26120" Device="KeshiMac-2" Modified="2015-11-26 09:42:44 +1100" ModID="A25F63E2-CE5A-4C13-A41A-39C3277118F7">
     <Binder>
-        <BinderItem ID="12" UUID="FA3F3C5C-597A-4D06-9BFC-FF940E0B027A" Type="Text" Created="2015-03-02 07:50:39 +1100" Modified="2015-03-02 07:50:39 +1100">
+        <BinderItem ID="12" UUID="FA3F3C5C-597A-4D06-9BFC-FF940E0B027A" Type="Text" Created="2015-03-02 07:50:39 +1100" Modified="2015-11-24 12:44:03 +1100">
             <Title>Novel Format</Title>
             <MetaData>
                 <LabelID>5</LabelID>
-                <IncludeInCompile>Yes</IncludeInCompile>
                 <NotesTextSelection>0,0</NotesTextSelection>
                 <IconFileName>Light Bulb.tiff</IconFileName>
             </MetaData>
             <TextSettings>
-                <TextSelection>10920,4</TextSelection>
+                <TextSelection>162,0</TextSelection>
+            </TextSettings>
+        </BinderItem>
+        <BinderItem ID="61" UUID="4C784005-BAF2-4D9D-8CCA-1C63964A25A0" Type="Text" Created="2015-11-24 12:40:29 +1100" Modified="2015-11-24 12:42:53 +1100">
+            <Title>How to write a novel</Title>
+            <MetaData>
+                <LabelID>5</LabelID>
+                <NotesTextSelection>0,0</NotesTextSelection>
+                <IconFileName>Light Bulb.tiff</IconFileName>
+            </MetaData>
+            <TextSettings>
+                <TextSelection>12897,0</TextSelection>
             </TextSettings>
         </BinderItem>
         <BinderItem ID="4" UUID="9743E55D-ED89-4CC3-91E9-2DC56AB674A1" Type="Folder" Created="2015-03-02 07:50:39 +1100" Modified="2015-03-02 07:50:39 +1100">
@@ -24,33 +34,14 @@
                 <TextSelection>0,0</TextSelection>
             </TextSettings>
             <CorkboardAndOutliner>
-                <SelectedSubdocumentIDs>6</SelectedSubdocumentIDs>
+                <SelectedSubdocumentIDs>63</SelectedSubdocumentIDs>
             </CorkboardAndOutliner>
             <Children>
-                <BinderItem ID="6" UUID="3591770F-2069-4163-AF97-336AB0561951" Type="Text" Created="2015-03-02 07:50:39 +1100" Modified="2015-03-05 07:18:47 +1100">
-                    <Title>Cathy calls Karthik</Title>
+                <BinderItem ID="6" UUID="3591770F-2069-4163-AF97-336AB0561951" Type="Text" Created="2015-03-02 07:50:39 +1100" Modified="2015-11-24 14:05:01 +1100">
+                    <Title>Cathy and her son</Title>
                     <MetaData>
                         <LabelID>4</LabelID>
-                        <StatusID>2</StatusID>
-                        <IncludeInCompile>Yes</IncludeInCompile>
-                        <NotesTextSelection>33,0</NotesTextSelection>
-                        <CustomMetaData>
-                            <MetaDataItem>
-                                <FieldID>targetwords</FieldID>
-                                <Value>500</Value>
-                            </MetaDataItem>
-                        </CustomMetaData>
-                    </MetaData>
-                    <TextSettings>
-                        <TextSelection>174,0</TextSelection>
-                        <Target Type="Words" Notify="Yes">500</Target>
-                    </TextSettings>
-                </BinderItem>
-                <BinderItem ID="54" UUID="DF408AC5-69EF-4277-9DD8-D5C6EB776827" Type="Text" Created="2015-03-02 07:50:39 +1100" Modified="2015-03-04 17:51:40 +1100">
-                    <Title>Karthik tells his parents</Title>
-                    <MetaData>
-                        <LabelID>4</LabelID>
-                        <StatusID>2</StatusID>
+                        <StatusID>1</StatusID>
                         <IncludeInCompile>Yes</IncludeInCompile>
                         <NotesTextSelection>0,0</NotesTextSelection>
                         <CustomMetaData>
@@ -61,8 +52,65 @@
                         </CustomMetaData>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>0,0</TextSelection>
-                        <Target Type="Words" Notify="Yes">500</Target>
+                        <TextSelection>0,962</TextSelection>
+                        <Target Type="Words" Notify="Yes">1500</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="62" UUID="E93FCFEA-DC5E-4A48-A626-9E67E1440EC6" Type="Text" Created="2015-03-02 07:50:39 +1100" Modified="2015-11-26 09:41:02 +1100">
+                    <Title>the drive</Title>
+                    <MetaData>
+                        <LabelID>4</LabelID>
+                        <StatusID>1</StatusID>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <NotesTextSelection>0,0</NotesTextSelection>
+                        <CustomMetaData>
+                            <MetaDataItem>
+                                <FieldID>targetwords</FieldID>
+                                <Value>500</Value>
+                            </MetaDataItem>
+                        </CustomMetaData>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>362,0</TextSelection>
+                        <Target Type="Words" Notify="Yes">1500</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="54" UUID="DF408AC5-69EF-4277-9DD8-D5C6EB776827" Type="Text" Created="2015-03-02 07:50:39 +1100" Modified="2015-11-24 14:04:21 +1100">
+                    <Title>Prashanth tells his parents</Title>
+                    <MetaData>
+                        <LabelID>4</LabelID>
+                        <StatusID>1</StatusID>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <NotesTextSelection>0,0</NotesTextSelection>
+                        <CustomMetaData>
+                            <MetaDataItem>
+                                <FieldID>targetwords</FieldID>
+                                <Value>500</Value>
+                            </MetaDataItem>
+                        </CustomMetaData>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>1368,0</TextSelection>
+                        <Target Type="Words" Notify="Yes">1500</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="63" UUID="DF371B70-CCDB-41B4-97B0-89446F5C1DC6" Type="Text" Created="2015-03-02 07:50:39 +1100" Modified="2015-11-24 13:35:07 +1100">
+                    <Title>Final chapter</Title>
+                    <MetaData>
+                        <LabelID>4</LabelID>
+                        <StatusID>1</StatusID>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <NotesTextSelection>0,0</NotesTextSelection>
+                        <CustomMetaData>
+                            <MetaDataItem>
+                                <FieldID>targetwords</FieldID>
+                                <Value>500</Value>
+                            </MetaDataItem>
+                        </CustomMetaData>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>1271,0</TextSelection>
+                        <Target Type="Words" Notify="Yes">1500</Target>
                     </TextSettings>
                 </BinderItem>
             </Children>
@@ -76,7 +124,7 @@
                 <SelectedSubdocumentIDs>25</SelectedSubdocumentIDs>
             </CorkboardAndOutliner>
             <Children>
-                <BinderItem ID="51" UUID="04FE5C45-2712-4064-B8C0-B27811149A72" Type="Text" Created="2015-03-04 17:32:09 +1100" Modified="2015-11-24 00:15:58 +1100">
+                <BinderItem ID="51" UUID="04FE5C45-2712-4064-B8C0-B27811149A72" Type="Text" Created="2015-03-04 17:32:09 +1100" Modified="2015-11-24 13:39:10 +1100">
                     <Title>overal plot</Title>
                     <MetaData>
                         <LabelID>5</LabelID>
@@ -84,7 +132,7 @@
                         <NotesTextSelection>0,0</NotesTextSelection>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>1581,0</TextSelection>
+                        <TextSelection>0,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
             </Children>
@@ -101,7 +149,7 @@
             </TextSettings>
             <DefaultChildTemplateID>21</DefaultChildTemplateID>
             <Children>
-                <BinderItem ID="52" UUID="2C9435F5-6398-489E-B051-10C4F9630413" Type="Text" Created="2015-03-04 17:36:35 +1100" Modified="2015-03-04 17:42:44 +1100">
+                <BinderItem ID="52" UUID="2C9435F5-6398-489E-B051-10C4F9630413" Type="Text" Created="2015-03-04 17:36:35 +1100" Modified="2015-11-24 13:36:55 +1100">
                     <Title>Cathy</Title>
                     <MetaData>
                         <LabelID>6</LabelID>
@@ -111,11 +159,11 @@
                         <IconFileName>Characters (Character Sheet).tiff</IconFileName>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>305,0</TextSelection>
+                        <TextSelection>293,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem ID="55" UUID="A4A8CDE8-E73A-484F-A13E-E292F41983C1" Type="Text" Created="2015-03-04 17:54:53 +1100" Modified="2015-03-04 17:55:58 +1100">
-                    <Title>Karthik Menon</Title>
+                <BinderItem ID="55" UUID="A4A8CDE8-E73A-484F-A13E-E292F41983C1" Type="Text" Created="2015-03-04 17:54:53 +1100" Modified="2015-11-24 13:46:55 +1100">
+                    <Title>Prashanth Menon</Title>
                     <MetaData>
                         <LabelID>6</LabelID>
                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -394,17 +442,6 @@
                         <TextSelection>32,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem ID="22" UUID="CC393CF1-A6F4-4B92-8E04-615245336917" Type="Text" Created="2015-03-02 07:50:39 +1100" Modified="2015-03-02 07:50:39 +1100">
-                    <Title>Setting Sketch</Title>
-                    <MetaData>
-                        <IncludeInCompile>Yes</IncludeInCompile>
-                        <NotesTextSelection>0,0</NotesTextSelection>
-                        <IconFileName>Locations (Location Sheet).tiff</IconFileName>
-                    </MetaData>
-                    <TextSettings>
-                        <TextSelection>33,0</TextSelection>
-                    </TextSettings>
-                </BinderItem>
             </Children>
         </BinderItem>
         <BinderItem ID="2" UUID="5A3F4F67-3490-44B6-B81D-069400CBEBCB" Type="TrashFolder" Created="2015-03-02 07:50:39 +1100" Modified="2015-03-02 07:50:39 +1100">
@@ -455,9 +492,9 @@
         <FirstName>Kalyanaraman</FirstName>
     </ProjectProperties>
     <ProjectTargets Notify="No">
-        <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="Yes" Deadline="2011-04-12 22:30:48 +1000" IgnoreDeadline="Yes">0</DraftTarget>
+        <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="Yes" Deadline="2011-04-12 22:30:48 +1000" IgnoreDeadline="Yes">80000</DraftTarget>
         <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="No" ResetType="Midnight" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
-        <PreviousSession Words="0" Characters="0" Date="2015-11-24 11:48:34 +1100"></PreviousSession>
+        <PreviousSession Words="0" Characters="0" Date="2015-11-26 09:36:59 +1100"></PreviousSession>
     </ProjectTargets>
     <TemplateFolderUUID>4BD6C9C3-F1BC-48F0-BA04-64790731B42B</TemplateFolderUUID>
     <PrintSettings PaperSize="595.0,842.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="iso-a4" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"></PrintSettings>
